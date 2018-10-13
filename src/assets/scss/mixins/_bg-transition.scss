@@ -1,0 +1,4 @@
+@mixin bg-transition {
+  transition: background-color 400s;
+  -webkit-transition: background-color 400s;
+}

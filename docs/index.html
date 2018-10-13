@@ -12,17 +12,17 @@
 
   <body style="min-height: 200vh">
 
-    <div class="top-bar">
-      <ul class="dropdown menu">
-        <li><a href="#">INICIO</a></li>
-        <li><a href="#">¿QUÉ ES EL BRUNCH?</a></li>
-      </ul>
+    <div data-sticky-container>
+      <div class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+        <ul class="menu">
+          <li><a href="#">INICIO</a></li>
+          <li><a href="#">¿QUÉ ES EL BRUNCH?</a></li>
+        </ul>
+      </div>
     </div>    
     <section class="section hero" id="hero">
-      <!-- TODO: erase this shame inline -->
-      <div class="imgage-background" style="min-height: 100vh">
-        <a href="#" class="button large">REGISTRARME</a>
-      </div>
+      <div class="image-background"></div>
+      <a href="#" class="button large">REGISTRARME</a>
     </section>
     
     <section class="section info">
@@ -39,6 +39,14 @@
             <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh
               porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse
               dictum feugiat nisl ut dapibus.</p>
+            <p>Suspendisse dictum feugiat nisl ut dapibus. Vivamus hendrerit arcu sed erat molestie vehicula. Ut in nulla
+              enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Sed auctor neque eu tellus rhoncus
+              ut eleifend nibh porttitor.</p>
+            <p>Suspendisse dictum feugiat nisl ut dapibus. Vivamus hendrerit arcu sed erat molestie vehicula. Ut in nulla
+              enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Sed auctor neque eu tellus rhoncus
+              ut eleifend nibh porttitor.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, laborum. Magnam a neque beatae blanditiis
+              recusandae odit id debitis sit harum, enim obcaecati eius veniam nihil. Assumenda facere modi quia?</p>
           </div>
           <div class="tabs-panel" id="program">
             <p>Suspendisse dictum feugiat nisl ut dapibus. Vivamus hendrerit arcu sed erat molestie vehicula. Ut in nulla
@@ -67,6 +75,7 @@
     </section>
     
     <section class="section register">
+      <h3 class="section-title text-center">¡Regístrate!</h3>
       <form action="">
         <div class="grid-container">
           <div class="grid-x grid-padding-x">
@@ -93,15 +102,18 @@
     <section class="section partners">
       <div class="grid-container">
         <h3>Con el patrocinio de:</h3>
-        <div class="cell small-3"><img src="assets/img/2.jpg" alt=""></div>
-        <div class="cell small-3"><img src="assets/img/2.jpg" alt=""></div>
-        <div class="cell small-3"><img src="assets/img/2.jpg" alt=""></div>
-        <div class="cell small-3"><img src="assets/img/2.jpg" alt=""></div>
+        <div class="grid-x grid-padding-x">
+          <div class="small-3 cell"><img class="img" src="assets/img/2.jpg" alt=""></div>
+          <div class="small-3 cell"><img class="img" src="assets/img/2.jpg" alt=""></div>
+          <div class="small-3 cell"><img class="img" src="assets/img/2.jpg" alt=""></div>
+          <div class="small-3 cell"><img class="img" src="assets/img/2.jpg" alt=""></div>
+        </div>
       </div>
     </section>
     
     <section class="section gallery">
       <div class="grid-container">
+        <h3 class="text-center">Galería</h3>
         <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
           <div class="orbit-wrapper">
             <div class="orbit-controls">

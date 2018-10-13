@@ -1,0 +1,18 @@
+/**
+ * Description: Top bar styles
+ * Version: 1.0.0
+ * Created: 13/10/2018
+ * Author: Rafael Otero <hola@jostech.com.ve>
+ * 
+ */
+ 
+.top-bar{
+  a{
+    color:$white;
+    transition:
+    &:hover{
+      background-color: $white;
+      color:$primary-color;
+    }
+  }
+}

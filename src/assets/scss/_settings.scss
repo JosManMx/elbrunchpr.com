@@ -69,11 +69,11 @@
 // ---------
 
 $global-font-size: 100%;
-$global-width: rem-calc(1200);
+$global-width: rem-calc(1000);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
-  secondary: #767676,
+  primary: #FFAF65,
+  secondary: #000,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -133,13 +133,13 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
+$header-font-family: 'Josefin Sans', sans-serif;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
 $header-lineheight: 1.4;
-$header-margin-bottom: 0.5rem;
+$header-margin-bottom: rem-calc(20);
 $header-styles: (
   small: (
     'h1': ('font-size': 24),
@@ -798,10 +798,10 @@ $table-stack-breakpoint: medium;
 
 $tab-margin: 0;
 $tab-background: $white;
-$tab-color: $primary-color;
-$tab-background-active: $light-gray;
-$tab-active-color: $primary-color;
-$tab-item-font-size: rem-calc(12);
+$tab-color: $black;
+$tab-background-active: $primary-color;
+$tab-active-color: $black;
+$tab-item-font-size: rem-calc(14);
 $tab-item-background-hover: $white;
 $tab-item-padding: 1.25rem 1.5rem;
 $tab-expand-max: 6;
@@ -850,7 +850,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
+$topbar-background: $primary-color;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
@@ -863,8 +863,8 @@ $xy-grid: true;
 $grid-container: $global-width;
 $grid-columns: 12;
 $grid-margin-gutters: (
-  small: 20px,
-  medium: 30px
+  small: 10px,
+  medium: 20px
 );
 $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
