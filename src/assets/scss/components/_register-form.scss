@@ -1,0 +1,22 @@
+/**
+ * Description: Register form styles
+ * Version: 1.0.0
+ * Created: 13/10/2018
+ * Author: Rafael Otero <hola@jostech.com.ve>
+ * 
+ */
+
+.register{
+  background-color: $primary-color;
+  padding: 20px 0;
+  .section-title{
+    font-weight: 700;
+  }
+  .button{
+    background-color: $black;
+    &:hover{
+      background-color: $primary-color;
+      border: 1px solid $black;
+    }
+  }
+}

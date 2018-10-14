@@ -1,0 +1,11 @@
+.footer{
+  height: rem-calc(200px) ;
+  background-color: $black;
+  color:$white;
+  padding-top: rem-calc(50px);
+  margin-top:rem-calc(100px);
+  .copyright{
+    font-size: rem-calc(18);
+    font-family: $header-font-family;
+  }
+}

@@ -1,12 +1,14 @@
 /**
- * Description: Layout styles
+ * Description: Partners section styles
  * Version: 1.0.0
  * Created: 13/10/2018
  * Author: Rafael Otero <hola@jostech.com.ve>
  * 
  */
- 
 
-.section {
-  margin-bottom: rem-calc(30px);
+
+.partners{
+  .img{
+    border-radius: 50%;
+  }
 }

@@ -1,0 +1,32 @@
+/**
+ * Description: Hero styles
+ * Version: 1.0.0
+ * Created: 13/10/2018
+ * Author: Rafael Otero <hola@jostech.com.ve>
+ * 
+ */
+
+.hero{
+  min-height: calc(100vh - 54px );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .image-background{
+    background-image: url('../img/ven-al-brunch-pr-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+  }
+  .button{
+    position: absolute;
+    background-color:#FFAF65;
+  }
+}
