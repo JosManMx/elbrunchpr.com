@@ -7,18 +7,29 @@
  */
 
 .hero{
-  min-height: calc(100vh - 54px );
+  min-height: rem-calc(300px);
+  
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  
+  @include breakpoint(medium) {
+    min-height: calc(100vh - 54px );
+    align-items: center;
+  }
 
   .image-background{
-    background-image: url('../img/ven-al-brunch-pr-2.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 50% 100%;
+    background-image: url('../img/hero-background-mobile.png');
+    background-size: 110vw;
+    background-position: center bottom;
     background-repeat: no-repeat;
+    @include breakpoint(medium) {
+      background-image: url('../img/ven-al-brunch-pr-2.jpg');
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: 50% 100%;
+    }
 
     position: absolute;
     left: 0;
@@ -28,5 +39,6 @@
   .button{
     position: absolute;
     background-color:#FFAF65;
+    margin-top: 2rem;
   }
 }
